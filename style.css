@@ -1,0 +1,21 @@
+.h1-class-externa{
+color: blue;
+background-color: red;
+font-size: 100px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+text-align: center;
+
+}
+h1{
+    color: brown;
+}
+body{
+    margin: 0;
+}
+.div-container{
+    background-color: red;
+    margin: 100px;
+    padding: 100px;
+    text-align: center;
+}
