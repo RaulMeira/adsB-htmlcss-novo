@@ -1,0 +1,33 @@
+.divA {
+    background-color: #006400;width: 300px;
+height: 400px;
+}
+
+.divB {
+background-color: #FFFF00;
+width: 200px;
+height: 200px;
+}
+
+.p {
+color: lightcoral;
+background-color: purple;
+font-size: 40px;
+font-family: Helvetica;
+font-weight: bold;
+
+}
+
+.divD {
+width: 60%;
+height: 80vh;
+background-color: rgb(195, 0, 255);
+
+}
+
+.divE {
+width: 60vh;
+height: 40vh;
+background-color: rgb(255, 230, 0);
+
+}
