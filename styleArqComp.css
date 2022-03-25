@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-image: url(https://cdn.wallpapersafari.com/24/22/5U0rxu.png);
+    
+}
+.tudo {
+    font-size: 20px;
+    color: white;
+    
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input{
+    width: 80px;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 50px;
+    color: black;
+  
+}
+
+   
+
+button {
+    padding: 10px;
+	width: 200px;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: none;
+    color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	background: linear-gradient(to right, orangered, orange);
+	cursor: pointe
+}
+
+
+.resultado{
+    width: 60px;
+    height: 100px;   
+    font-size: 30px;
+    background: linear-gradient(to right, #BF658F, #4C4259 );
+    
+}
