@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Bases</title>
+    <link rel="stylesheet" href="styleExArqComp.css">
+
+</head>
+
+<body>
+    <h1>CONVERSOR DE BASES NÚMERICAS</h1>
+    <div class="tudo">
+        <h4 class="subtitulo"> Insira abaixo o valor decimal que voce quer <u>converter</u></h4>
+
+        <input id="val_decimal" placeholder="valor decimal" autofocus>
+        <br><br>
+        <h3 class="escolha">Escolha qual base númerica o seu número decimal será convertido </h3>
+        <br>
+        <div class="botoes">
+            <button onclick="aparecer_octal()"><b>Octal</b></button>
+            <br><br>
+            <button onclick="aparecer_hexa()"><b>Hexadecimal</b></button>
+            <br><br>
+            <button onclick="aparecer_bina()"><b>Binário</b></button>
+            <br><br><br><br>
+            <span class="resultado" id="mostrar"></span>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+
+    function aparecer_octal() {
+
+        var decimal = Number(val_decimal.value);
+        let octal = decimal.toString(8);
+        console.log(decimal);
+        console.log(octal);
+
+        mostrar.innerHTML = `O número decimal ${val_decimal.value} em octal é: <b>${octal}</b>`;
+
+    }
+
+    function aparecer_bina() {
+
+        var decimal = Number(val_decimal.value);
+        let binaria = decimal.toString(2);
+        console.log(decimal);
+        console.log(binaria);
+
+        mostrar.innerHTML = `O número decimal ${val_decimal.value} em binário é: <b>${binaria}</b>`;
+    }
+
+    function aparecer_hexa() {
+
+        var decimal = Number(val_decimal.value);
+        let hexadecimal = decimal.toString(16);
+        console.log(decimal);
+        console.log(hexadecimal);
+
+        mostrar.innerHTML = `O número decimal ${val_decimal.value} em hexadecimal é: <b>${hexadecimal}</b>`;
+    }
+
+</script>
