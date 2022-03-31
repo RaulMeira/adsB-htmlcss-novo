@@ -1,10 +1,10 @@
 body{
-    background-color: gray;
+    background-color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
 }
 .header {
-    border: 3px black solid;
+    border: 3px blueviolet solid;
     border-radius: 50px;
     margin: 5px;
     
@@ -13,7 +13,7 @@ body{
     justify-content: space-between;
     display: flex;  
     color: blueviolet;
-    padding: 5px;
+    padding: 10px;
     align-items: center;
 }
 .container ul{
@@ -22,18 +22,61 @@ body{
     width: 600px;
     list-style: none;
 }
+ul a {
+    text-decoration: none;
+}
 .home{
-    background-image: url("logoSptech.png");
+    background-image: url("https://i.pinimg.com/originals/c8/82/04/c88204ab3db0882f154847a6a6fa0f36.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     margin: 0;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
 }
 .home p{
     align-items: center;
-    margin-top: 10px;
     width: 200px;
-    font-size: 50px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin: 0;
+    font-size: 40px;
+    margin-left: 500px;
+    margin-top: 5px;
+}
+.instrução{
+    width: 200px;
+    margin: 0;
+    margin-top: 200px;
+    
+}
+.cadastro {
+    background-color: rgb(217, 92, 255);
+    border-radius: 20px;
+    height: 480px;
+    width: 400px;
+    margin: auto;
+    margin-left: 400px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+input{
+    height: 20px;
+    border: 4px white solid;
+    border-radius: 5px;
+}
+.botao{
+    background-color: white;
+    border: 2px white solid;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+    height: 30px;
+}
+.agora{
+    font-weight: 600;
 }

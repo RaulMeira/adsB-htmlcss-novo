@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex03-Cadastro</title> <link rel="stylesheet" href="styleex03-Cadastro.css">
+    <title>Ex03-P.I-Cadastro</title>
+    <link rel="stylesheet" href="styleex03-Cadastro.css">
 </head>
+
 <body>
     <div class="header">
         <div class="container">
             <h1>Site do Raul</h1>
             <ul>
-                <li>HOME</li>
-                <li>Nossos serviços</li>
-                <li>Login</li>
+                <li><a href="Ex03-P.I-Home.html">HOME</a></li>
+                <li><a href="">Nossos serviços</a></li>
+                <li><a href="">Login</a></li>
                 <li>|</li>
-                <li><a href="">Cadastro</a></li>
+                <li><a class="agora" href="">Cadastro</a></li>
             </ul>
         </div>
     </div>
+    </div>
     <div class="home">
-        <div class="container"></div>
-       <p>Atividade 03 de P.I!</p> 
+        <div class="container">
+            <div class="cadastro">
+                <h2>Fazer cadastro</h2>
+                Nome:
+                <input type="text" placeholder="insira seu nome">
+                <br>
+                Sobrenome:
+                <input type="text" placeholder="insira seu sobrenome">
+                <br>
+                Email:
+                <input type="email" placeholder="insira seu email">
+                <br>
+                Senha:
+                <input type="password" placeholder="crie uma senha">
+                <br>
+                Confirme sua senha:
+                <input type="password" placeholder="confirme sua senha">
+                <br>
+                <button onclick="cadastro()" class="botao">Confirmar cadastro</button>
+            </div>
+
+        </div>
     </div>
 </body>
+
 </html>
